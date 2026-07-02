@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">흐린 교실</title>
+  <desc id="desc">조용하고 흐린 분위기의 교실 장면</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dfe8e5"/>
+      <stop offset="1" stop-color="#ece3d6"/>
+    </linearGradient>
+    <linearGradient id="cloud" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#aab8b4"/>
+      <stop offset="1" stop-color="#d5dfdc"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#wall)"/>
+  <rect y="358" width="960" height="182" fill="#a88261"/>
+  <rect x="526" y="58" width="284" height="214" rx="8" fill="#eef3ef" stroke="#9db9b4" stroke-width="8"/>
+  <line x1="668" y1="62" x2="668" y2="268" stroke="#9db9b4" stroke-width="7"/>
+  <line x1="530" y1="164" x2="806" y2="164" stroke="#9db9b4" stroke-width="7"/>
+  <g fill="url(#cloud)" opacity=".76">
+    <ellipse cx="610" cy="118" rx="56" ry="22"/>
+    <ellipse cx="666" cy="116" rx="70" ry="28"/>
+    <ellipse cx="736" cy="126" rx="54" ry="22"/>
+  </g>
+  <rect x="82" y="86" width="340" height="164" rx="8" fill="#405f5a"/>
+  <line x1="112" y1="126" x2="324" y2="126" stroke="#c8d8d0" stroke-width="8" stroke-linecap="round" opacity=".62"/>
+  <line x1="112" y1="164" x2="362" y2="164" stroke="#c8d8d0" stroke-width="8" stroke-linecap="round" opacity=".42"/>
+  <g opacity=".78">
+    <rect x="142" y="320" width="150" height="26" rx="6" fill="#73563e"/>
+    <rect x="414" y="324" width="166" height="26" rx="6" fill="#73563e"/>
+    <rect x="658" y="318" width="160" height="26" rx="6" fill="#73563e"/>
+    <rect x="168" y="282" width="84" height="42" rx="7" fill="#6f8d79"/>
+    <rect x="452" y="284" width="82" height="42" rx="7" fill="#c76c5f"/>
+    <rect x="696" y="280" width="84" height="42" rx="7" fill="#806c9b"/>
+  </g>
+  <g fill="#40514d" opacity=".45">
+    <circle cx="210" cy="278" r="22"/>
+    <circle cx="494" cy="280" r="22"/>
+    <circle cx="738" cy="276" r="22"/>
+  </g>
+  <path d="M0 434c122-32 230-26 340 1 132 32 242 28 374-2 102-23 174-20 246 12v95H0z" fill="#546865" opacity=".22"/>
+</svg>

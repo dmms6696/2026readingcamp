@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">하굣길</title>
+  <desc id="desc">학교 밖으로 이어지는 하굣길 장면</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2d2b8"/>
+      <stop offset=".58" stop-color="#e7efe8"/>
+      <stop offset="1" stop-color="#b7cfc6"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#85705f"/>
+      <stop offset="1" stop-color="#5d6c68"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#sky)"/>
+  <circle cx="760" cy="102" r="42" fill="#d9a441" opacity=".56"/>
+  <rect x="82" y="168" width="318" height="176" rx="8" fill="#d8dfd9"/>
+  <rect x="110" y="198" width="80" height="62" rx="5" fill="#9bc0bd"/>
+  <rect x="218" y="198" width="80" height="62" rx="5" fill="#9bc0bd"/>
+  <rect x="326" y="198" width="50" height="146" rx="5" fill="#63736f"/>
+  <path d="M0 342c120-40 214-26 336 4 118 29 204 26 326-8 126-36 210-28 298 18v184H0z" fill="#6f9a79" opacity=".65"/>
+  <path d="M0 424c172-32 312-28 480 0s304 36 480-2v118H0z" fill="url(#road)"/>
+  <path d="M462 424h36l52 116h-140z" fill="#f3eadb" opacity=".55"/>
+  <g fill="#41514d">
+    <circle cx="382" cy="326" r="25"/>
+    <rect x="357" y="350" width="50" height="90" rx="22"/>
+    <circle cx="552" cy="326" r="25"/>
+    <rect x="527" y="350" width="50" height="90" rx="22"/>
+  </g>
+  <g stroke="#24302f" stroke-width="6" stroke-linecap="round" opacity=".5">
+    <line x1="356" y1="420" x2="326" y2="468"/>
+    <line x1="404" y1="420" x2="424" y2="468"/>
+    <line x1="528" y1="420" x2="504" y2="468"/>
+    <line x1="576" y1="420" x2="610" y2="468"/>
+  </g>
+  <path d="M428 346c30 20 78 20 108 0" fill="none" stroke="#c76c5f" stroke-width="6" stroke-linecap="round" opacity=".45"/>
+</svg>

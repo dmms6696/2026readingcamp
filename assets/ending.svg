@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">엔딩 장면</title>
+  <desc id="desc">책과 창밖 빛이 함께 있는 엔딩 장면</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9f3ef"/>
+      <stop offset=".52" stop-color="#fff4e4"/>
+      <stop offset="1" stop-color="#ead7d1"/>
+    </linearGradient>
+    <linearGradient id="book" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fffdf8"/>
+      <stop offset="1" stop-color="#e9efe9"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)"/>
+  <rect x="122" y="76" width="716" height="306" rx="10" fill="#f9fbf7" stroke="#9cbfb8" stroke-width="8"/>
+  <rect x="146" y="98" width="668" height="262" fill="#d5e9e5"/>
+  <path d="M146 278c102-58 186-70 286-32 83 31 148 30 230-9 64-31 106-26 152 14v109H146z" fill="#7aa874" opacity=".58"/>
+  <circle cx="704" cy="150" r="42" fill="#d9a441" opacity=".66"/>
+  <rect x="0" y="382" width="960" height="158" fill="#9a7352"/>
+  <path d="M282 318c72-26 142-22 204 14v118c-66-36-134-39-204-13z" fill="url(#book)" stroke="#d7c9b4" stroke-width="6"/>
+  <path d="M486 332c62-36 132-40 204-14v119c-70-26-138-23-204 13z" fill="url(#book)" stroke="#d7c9b4" stroke-width="6"/>
+  <line x1="486" y1="332" x2="486" y2="450" stroke="#b7aa99" stroke-width="5"/>
+  <g stroke="#7c8e88" stroke-width="6" stroke-linecap="round" opacity=".85">
+    <line x1="326" y1="356" x2="438" y2="350"/>
+    <line x1="326" y1="386" x2="448" y2="382"/>
+    <line x1="528" y1="356" x2="644" y2="350"/>
+    <line x1="528" y1="386" x2="626" y2="382"/>
+    <line x1="528" y1="416" x2="656" y2="414"/>
+  </g>
+  <path d="M422 292c34-26 82-26 116 0" fill="none" stroke="#c76c5f" stroke-width="7" stroke-linecap="round" opacity=".62"/>
+  <path d="M454 276c16-12 36-12 52 0" fill="none" stroke="#31706f" stroke-width="6" stroke-linecap="round" opacity=".7"/>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">교실</title>
+  <desc id="desc">따뜻한 빛이 들어오는 중학교 교실 장면</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6f0df"/>
+      <stop offset="1" stop-color="#dcece4"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d8b989"/>
+      <stop offset="1" stop-color="#b9895d"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#wall)"/>
+  <rect y="365" width="960" height="175" fill="url(#floor)"/>
+  <rect x="72" y="74" width="352" height="170" rx="8" fill="#466862"/>
+  <rect x="92" y="96" width="312" height="10" rx="5" fill="#d9e8dd" opacity=".85"/>
+  <rect x="92" y="128" width="220" height="8" rx="4" fill="#d9e8dd" opacity=".68"/>
+  <rect x="92" y="158" width="258" height="8" rx="4" fill="#d9e8dd" opacity=".5"/>
+  <rect x="560" y="56" width="262" height="212" rx="8" fill="#f9fbf7" stroke="#b9cfc7" stroke-width="8"/>
+  <line x1="691" y1="60" x2="691" y2="264" stroke="#b9cfc7" stroke-width="7"/>
+  <line x1="564" y1="162" x2="818" y2="162" stroke="#b9cfc7" stroke-width="7"/>
+  <path d="M568 70h250v42c-78 32-164 30-250 12z" fill="#b8d6d4" opacity=".6"/>
+  <g fill="#6f8f7b" opacity=".55">
+    <circle cx="805" cy="114" r="16"/>
+    <circle cx="830" cy="135" r="11"/>
+    <circle cx="784" cy="141" r="10"/>
+  </g>
+  <g fill="#7d5f47">
+    <rect x="120" y="325" width="160" height="26" rx="6"/>
+    <rect x="420" y="330" width="166" height="26" rx="6"/>
+    <rect x="654" y="326" width="158" height="26" rx="6"/>
+  </g>
+  <g fill="#4e5f5b">
+    <rect x="146" y="351" width="12" height="70" rx="4"/>
+    <rect x="242" y="351" width="12" height="70" rx="4"/>
+    <rect x="448" y="356" width="12" height="68" rx="4"/>
+    <rect x="552" y="356" width="12" height="68" rx="4"/>
+    <rect x="680" y="352" width="12" height="70" rx="4"/>
+    <rect x="780" y="352" width="12" height="70" rx="4"/>
+  </g>
+  <g opacity=".9">
+    <rect x="148" y="286" width="84" height="48" rx="7" fill="#c96f62"/>
+    <rect x="458" y="292" width="90" height="44" rx="7" fill="#d4a249"/>
+    <rect x="688" y="287" width="86" height="47" rx="7" fill="#6e8f73"/>
+  </g>
+  <path d="M0 452c120-28 214-22 324 0s204 26 334-1 202-24 302 8v81H0z" fill="#8b684b" opacity=".22"/>
+</svg>
