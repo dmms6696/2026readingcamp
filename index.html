@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>율의 시선: 다시 바라보는 하루</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app" id="app">
+    <section class="start-screen" id="startScreen" aria-labelledby="startTitle">
+      <div class="start-copy">
+        <p class="eyebrow">중학교 독서캠프 선택형 스토리</p>
+        <h1 id="startTitle">율의 시선: 다시 바라보는 하루</h1>
+        <p class="intro-text">
+          당신은 《율의 시선》 속 교실에 들어온 제3의 학생입니다.
+          무엇을 보고, 어떻게 생각하고, 어떤 말을 선택하느냐에 따라 이야기가 달라집니다.
+        </p>
+
+        <form class="start-form" id="startForm">
+          <label for="playerName">플레이어 이름</label>
+          <div class="name-row">
+            <input type="text" id="playerName" name="playerName" autocomplete="name" maxlength="16" placeholder="이름을 입력하세요">
+            <button type="submit">게임 시작</button>
+          </div>
+          <p class="form-message" id="startMessage" role="alert" aria-live="polite"></p>
+        </form>
+
+        <div class="start-actions">
+          <button type="button" class="secondary-button" id="continueButton">이어하기</button>
+          <button type="button" class="ghost-button" id="openGuideButton">게임 설명 보기</button>
+        </div>
+      </div>
+
+      <div class="start-art" aria-hidden="true">
+        <img src="assets/classroom.svg" alt="">
+      </div>
+    </section>
+
+    <section class="game-screen is-hidden" id="gameScreen" aria-label="게임 화면">
+      <main class="play-panel" id="playPanel">
+        <div class="scene-frame">
+          <img id="sceneImage" src="assets/classroom.svg" alt="현재 장면 이미지">
+          <div class="phase-badge" id="eventPhase">도입</div>
+        </div>
+
+        <div class="story-block">
+          <p class="event-type" id="eventType">관찰</p>
+          <h2 id="eventTitle">이벤트 제목</h2>
+          <p class="event-text" id="eventText"></p>
+
+          <div class="dialogue-box" id="dialogueBox">
+            <p class="speaker" id="speakerName"></p>
+            <p id="dialogueText"></p>
+          </div>
+
+          <div class="result-message" id="resultMessage" aria-live="polite"></div>
+          <div class="choice-list" id="choiceList"></div>
+          <p class="progress-hint" id="progressHint"></p>
+        </div>
+      </main>
+
+      <aside class="status-panel" aria-label="플레이어 상태">
+        <div class="player-strip">
+          <div>
+            <p class="panel-label">플레이어</p>
+            <h2 id="statusPlayerName">-</h2>
+          </div>
+          <div class="phase-pill" id="statusPhase">도입</div>
+        </div>
+
+        <section class="status-section" aria-labelledby="statsTitle">
+          <h3 id="statsTitle">기본 스탯</h3>
+          <div id="statsList" class="meter-list"></div>
+        </section>
+
+        <section class="status-section" aria-labelledby="relationsTitle">
+          <h3 id="relationsTitle">인물 관계</h3>
+          <div id="relationsList" class="relations-list"></div>
+        </section>
+
+        <section class="status-section" aria-labelledby="flagsTitle">
+          <h3 id="flagsTitle">획득한 플래그</h3>
+          <div id="flagsList" class="flag-list"></div>
+        </section>
+
+        <section class="status-section" aria-labelledby="historyTitle">
+          <h3 id="historyTitle">최근 선택 기록</h3>
+          <ol id="historyList" class="history-list"></ol>
+        </section>
+
+        <button type="button" class="restart-button" id="restartButton">처음부터 다시 시작</button>
+      </aside>
+    </section>
+  </div>
+
+  <dialog class="guide-dialog" id="guideDialog">
+    <div class="dialog-header">
+      <h2>게임 설명</h2>
+      <button type="button" class="icon-close" id="closeGuideButton" aria-label="게임 설명 닫기">×</button>
+    </div>
+    <p>
+      각 장면에서 선택지를 고르면 시선 이해력, 관계 용기, 배려 감각, 표현 진심도와 인물 관계가 변합니다.
+      오른쪽 패널에서 현재 상태와 최근 선택 기록을 확인할 수 있습니다.
+    </p>
+    <p>
+      이 버전은 학생 설계안을 넣기 전의 샘플 프레임워크입니다.
+      나중에 <code>gameData.js</code>의 이벤트와 엔딩 데이터를 바꾸면 다른 이야기로 확장할 수 있습니다.
+    </p>
+  </dialog>
+
+  <noscript>이 게임을 실행하려면 브라우저에서 JavaScript를 켜 주세요.</noscript>
+  <script src="gameData.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
